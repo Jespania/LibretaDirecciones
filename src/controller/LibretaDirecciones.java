@@ -44,7 +44,7 @@ public class LibretaDirecciones extends Application {
     public void initLayoutPrincipal(){
         //cargar con el layout principal
         FXMLLoader loader =new FXMLLoader();
-        URL location=LibretaDirecciones.class.getResource(".../view/VistaPrincipal.fxml");
+        URL location=LibretaDirecciones.class.getResource("../view/VistaPrincipal.fxml");
         loader.setLocation(location);
          try {
              layoutPrincipal=loader.load();
